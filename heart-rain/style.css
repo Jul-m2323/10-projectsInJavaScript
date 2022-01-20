@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@1,100&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    min-height: 100vh;
+}
+
+
+.heart {
+    position: fixed;
+    top: -1vh;
+    transform: translateY(0);
+    animation: fall 3s linear;
+}
+
+@keyframes fall {
+    to{
+        transform: translateY(105vh);
+    }
+}
